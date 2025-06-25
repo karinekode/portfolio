@@ -5,11 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Karine Tan's Portfolio</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+    <!-- <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"> -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/workExperience.css" />
     <link href="css/styles.css" rel="stylesheet">
@@ -75,21 +76,21 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                       <b> Data Science | 7+ Yrs Coding Experience | Driving Data-Driven Impact </b><br><br>
+                       <b> Data Science | 7+ Years Coding Experience | Driving Data-Driven Impact </b><br><br>
                         
                         Hi! I’m Karine, a data scientist passionate about transforming data into meaningful decisions and strategic solutions. 
                         With over 7 years of coding experience (including 4 years in full-time roles and 4 data analytics internships), I specialize in bridging the gap between data and business impact.
-<br><br>I'm a lifelong learner, hence did Master’s of Science in Computer Science and I’m eager to grow through building more data solutions. Let's connect: 
+<br><br>I’m a lifelong learner, hence did Master’s in Computer Science, specialising in machine learning. I’m eager to grow & build more data solutions. Let's connect: 
 <br><br>
 <div class="social-icons">
   <a href="https://www.linkedin.com/in/karine-tan-kang-ting/" target="_blank" rel="noopener noreferrer">
-    <i class="fa fa-linkedin" aria-hidden="true"></i>
+    <i class="fab fa-linkedin" aria-hidden="true"></i>
   </a>
   <a href="mailto:karinetan95@gmail.com" target="_blank" rel="noopener noreferrer">
     <i class="fa fa-envelope" aria-hidden="true"></i>
   </a>
   <a href="https://github.com/karinekode" target="_blank" rel="noopener noreferrer">
-    <i class="fa fa-github" aria-hidden="true"></i>
+    <i class="fab fa-github" aria-hidden="true"></i>
   </a>
 </div>
 
@@ -97,15 +98,14 @@
 
  <!--  What I Do: <br>
     I’m eager to grow through new challenges
-    I’m a lifelong learner, hence did Master’s in Computer Science, specialising in machine learning. I’m eager to grow & build more data solutions. Let's connect: 
+    I'm a lifelong learner, hence did Master’s of Science in Computer Science and I’m eager to grow through building more data solutions. Let's connect: 
+     
 •	Build Scalable Data Solutions: From prototyping ML models to deploying them in production (MLOps)
 <br>
 •	Solve Business Problems: Optimize processes, uncover patterns, and drive decisions with data
 <br>
 •	Lifelong Learner: Pursuing a Master’s in Computer Science to deepen my expertise in AI/ML systems
   -->  
-
-
 
                     </p>
                 </div>
@@ -186,10 +186,10 @@
             <h3>Georgia Institute of Technology</h3>
             <span class="education-date">Sept 2016 - Sept 2017</span>
             <h4>Master of Science in Computer Science</h4>
-            <p>
+            <ul>
                <li> 
                 Specialization in Machine Learning
-               </li> 
+             </ul>
                
             </p>
         </div>
@@ -225,7 +225,7 @@
 
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Recent Projects</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
@@ -234,11 +234,23 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Chatbot</h3>
+                        <h3>LLM Chatbot for L'Oreal</h3>
                         <p>
-                            LLM-powered assistant enabling supply chain teams to query logistics docs, SOPs and catalogs via natural language. Tool ranked in top 1% most-utilized globally (100+ active users). Built using LangChain, OpenAI, Python, SQL & GCP cloud services
+                            LLM-powered chatbot enabled L'Oreal teams to query documents (incl.  <br> catalogs, SOPs) 
+                             via natural language. Enabled scalable self-service, time savings, and reduced knowledge gaps.
+            
+                            <br> <br> Tool ranked in top 1% most-utilized globally (100+ active users)
+
+                            <div class="tech-icons"> <i> Built using: &nbsp;
+                            <span title="LangChain"><i class="fa fa-cogs" aria-hidden="true"></i> LangChain</span>
+                            <span title="OpenAI"><i class="fa fa-code" aria-hidden="true"></i> OpenAI</span>
+                            <span title="Python"><i class="fab fa-python" aria-hidden="true"></i> Python</span>
+                            <span title="SQL"><i class="fa fa-database" aria-hidden="true"></i> SQL</span>
+                            <span title="GCP"><i class="fa fa-cloud" aria-hidden="true"></i> GCP</span> </i>
+                            </div>
+                            
                         </p>
-                        <a href="#chatbot" onclick="openModal('chatbot')">View Project</a>
+                        <b><a href="#chatbot" onclick="openModal('chatbot')">Click for More</a></b>
 
                     </div>
                     <!-- End .project-info -->
@@ -251,11 +263,27 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Demand Forecasting Platform</h3>
+                        <h3>AI/ML Demand Forecasting</h3>
                         <p>
-                           Smart demand forecasting platform using ARIMA models and Gradient Boosted Trees to optimize production based on demand signals, historical trends & competitive market data. Improved forecast accuracy by 14%, enabling annual cost savings of ~$1.1M USD
+
+                            Built AI/ML demand forecasting platform to optimise production planning 
+                            <br> using demand signals, historical sales trends and competitive market insights.
+
+                            <br><br> Enabled $1.1 million USD annually of cost savings through
+                            <br> improved forecast accuracy (14%) 
+                            <br><br> Won L'Oreal's Global Tech Blazer award for innovation and impact
+
+
+                            <div class="tech-icons"> <i> Built using: &nbsp;
+                            <span title="Vertex AI"><i class="fa fa-code" aria-hidden="true"></i> Vertex AI Pipelines</span>
+                            <span title="Python"><i class="fab fa-python" aria-hidden="true"></i> Python</span>
+                            <span title="GCP"><i class="fa fa-cloud" aria-hidden="true"></i> GCP</span> </i>
+                            <span title="React"><i class="fa fa-cogs" aria-hidden="true"></i> React </span>
+                            </div>
+
                         </p>
-                        <a href="#">View Project</a>
+                        <b><a href="#forecasting" onclick="openModal('forecasting')">Click for More</a></b>
+
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -269,9 +297,22 @@
                     <div class="project-info">
                         <h3>Recommendation Engine</h3>
                         <p>
-                           Smart demand forecasting platform using ARIMA models and Gradient Boosted Trees to optimize production based on demand signals, historical trends & competitive market data. Improved forecast accuracy by 14%, enabling annual cost savings of ~$1.1M USD
+                    Developed recommendation engine for "next best action" commercial insights
+                    <br> (optimal marketing channel, content, timing) personalised for each customer
+                    <br><br> Achieved $17 million sales uplift (highest YoY growth) and received
+                    <br> 6 awards including Data Science Excellence Award & Inspire Award for 
+                    <br> excellent delivery & leadership
+
+
+                            <div class="tech-icons"> <i> Built using: &nbsp;
+                            <span title="Python"><i class="fab fa-python" aria-hidden="true"></i> Pyspark</span>
+                            <span title="GCP"><i class="fa fa-cloud" aria-hidden="true"></i> AWS Cloud</span> </i>
+                            <span title="LangChain"><i class="fa fa-cogs" aria-hidden="true"></i> Airflow </span>
+                            <span title="OpenAI"><i class="fa fa-cogs" aria-hidden="true"></i> Docker</span>
+                            </div>
+
                         </p>
-                        <a href="#">View Project</a>
+                        <b><a href="#reco" onclick="openModal('reco')">Click for More</a></b>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -285,32 +326,32 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
+            <li>LangChain</li>
+            <li>TensorFlow</li>
+            <li>PyTorch</li>
+            <li>OpenAI API</li>
+            <li>Scikit-learn</li>
+
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
+            <li>Pyspark</li>
             <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>R</li>
+            <li>SQL</li>
+
+            <li>Google Cloud Platform - BigQuery, Vertex AI</li>
+            <li>AWS - Elasticsearch, S3, RedShift</li>
+            <li>Azure</li>
+            <li>Airflow</li>
+            <li>Kubernetes</li>
+            <li>Docker</li>
+            <li>MLflow</li>
+
+            <li>Flask</li>
+             <li>PowerBI</li>
+ 
+
+
+
         </ul>
     </div>
     <!-- End #skills -->
@@ -345,13 +386,13 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fab fa-stack-overflow" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                         </li>
 
                     </ul>
@@ -368,18 +409,59 @@
   const closeBtn = modal.querySelector('.close-btn');
 
   const projectsData = {
+
     chatbot: {
-      title: 'Chatbot Assistant',
-      tools: 'LangChain, OpenAI, Python, SQL, GCP',
-      description: 'This LLM-powered assistant enables supply chain teams to query logistics documents, SOPs, and catalogs via natural language. It reduces time spent searching complex datasets.',
-      highlights: [
-        'Built with LangChain and OpenAI for robust document-based Q&A.',
-        'Indexed thousands of logistics SOPs and manuals for real-time querying.',
-        'Integrated with GCP and deployed with Flask backend and React frontend.',
-        'Ranked top 1% most-used internal tools globally (100+ active users).'
-      ]
+  title: 'LLM Chatbot for Internal Use',
+  tools: 'LangChain, OpenAI, Python, SQL, GCP',
+  description: `This LLM-powered assistant enables supply chain teams to query logistics documents, SOPs, and catalogs via natural language, reducing time spent searching complex datasets.`,
+  highlights: [
+    'Problem: L’Oréal teams struggled to quickly find accurate information across large, complex document sets (catalogs, SOPs), slowing decision-making and operations.',
+    'Approach: Developed an LLM-powered chatbot using LangChain and OpenAI for natural language queries over structured and unstructured documents. Indexed thousands of documents, integrating with GCP for scalable processing. Built a user-friendly Python backend and SQL-powered analytics interface.',
+    'Results: Reduced average query time by over 50%. Enabled scalable self-service knowledge access, reducing dependency on SMEs. Ranked in top 1% most-utilized internal tools globally with 100+ active users.',
+    'What I Learned: Deepened expertise in LLM integration, prompt engineering, and scalable cloud deployment. Developed skills in cross-team collaboration and user-centric product design.'
+  ]
+}, 
+    
+    // chatbot: {
+    //   title: 'LLM Chatbot for Internal Use',
+    //   tools: 'LangChain, OpenAI, Python, SQL, GCP',
+    //   description: 'This LLM-powered assistant enables supply chain teams to query logistics documents, SOPs, and catalogs via natural language. It reduces time spent searching complex datasets.',
+    //   highlights: [
+    //     'Built with LangChain and OpenAI for robust document-based Q&A.',
+    //     'Indexed thousands of logistics SOPs and manuals for real-time querying.',
+    //     'Enabled central KPI reference hub with definitions, calculation logic, external links',
+    //     'Integrated with GCP and deployed with Flask backend and React frontend.',
+    //     'Ranked top 1% most-used internal tools globally (100+ active users).',
+
+    //     'Problem - approach - results - What I learnt'
+    //   ]
+    // },
+
+    
+    forecasting: {
+    title: 'Smart Demand Forecasting Platform',
+    tools: 'ARIMA, XGBoost, Python, SQL',
+    description: 'Developed an advanced demand forecasting system integrating ARIMA and XGBoost models to optimize production planning by leveraging demand signals, historical sales data, and competitive market insights.',
+    highlights: [
+      'Improved forecast accuracy by 14%, enabling ~$1.1M USD in annual cost savings through precise inventory management.',
+      'Combined time series analysis with gradient boosted trees for robust predictions.',
+      'Enabled data-driven production optimization based on multiple market signals.',
+      'Recipient of the Global Tech Blazer Award from L’Oréal for innovation and impact.'
+    ]
     },
-    // add more projects here similarly
+
+    reco: {
+    title: 'Personalized Recommendation Engine',
+    tools: 'Python, Scikit-learn, Collaborative Filtering, Content-Based Filtering',
+    description: 'Built a recommendation engine leveraging collaborative and content-based filtering to deliver personalized product suggestions, improving user engagement and conversion rates.',
+    highlights: [
+      'Integrated user behavior, product metadata, and market trends for tailored recommendations.',
+      'Achieved a 20% uplift in click-through rates and 15% increase in sales conversions.',
+      'Implemented scalable pipeline using Python and optimized algorithms for real-time suggestions.',
+      'Enhanced user experience with relevant, timely product discovery.'
+    ]
+    }
+
   };
 
   function openModal(projectKey) {

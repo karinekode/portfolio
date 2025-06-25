@@ -59,3 +59,11 @@
 .social-icons a:hover {
   color: #005582; /* darker blue on hover */
 }
+
+.tech-icons span {
+  margin-right: 5px; /* space between each */
+  vertical-align: middle;
+    color: #505A67; /* or #4E5A66 a bit darker */
+    
+}
+
