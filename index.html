@@ -237,18 +237,19 @@
                             LLM-powered chatbot enabled L'Oreal teams to query documents (incl. catalogs, SOPs) 
                              via natural language. Enabled scalable self-service, time savings, and reduced knowledge gaps.
             
-                            <br> <br> Tool ranked in top 1% most-utilized globally (100+ active users)
+                            <br> <br> Achieved high utilisation with 100+ monthly active users 
 
                             <div class="tech-icons"> <i> Built using: &nbsp;
                             <span title="LangChain"><i class="fa fa-cogs" aria-hidden="true"></i> LangChain</span>
-                            <span title="OpenAI"><i class="fa fa-code" aria-hidden="true"></i> OpenAI</span>
                             <span title="Python"><i class="fab fa-python" aria-hidden="true"></i> Python</span>
-                            <span title="SQL"><i class="fa fa-database" aria-hidden="true"></i> SQL</span>
-                            <span title="GCP"><i class="fa fa-cloud" aria-hidden="true"></i> GCP</span> </i>
+                            <span title="OpenAI"><i class="fa fa-code" aria-hidden="true"></i> OpenAI</span>
+                            <span title="Gemini"><i class="fa fa-code" aria-hidden="true"></i> Gemini</span>
+                             <span title="GCP"><i class="fa fa-cloud" aria-hidden="true"></i> GCP</span> </i>
+           
                             </div>
                             
                         </p>
-                        <b><a href="#chatbot" onclick="openModal('chatbot')" style="font-size: 1.22em;">Click for More</a></b>
+                        <b><a href="#gpt" onclick="openModal('gpt')" style="font-size: 1.22em;">Click for More</a></b>
 
                     </div>
                     <!-- End .project-info -->
@@ -407,26 +408,48 @@
 
   const projectsData = {
 
-chatbot: {
+    // Teams struggle to quickly find accurate information across numerous, complex documents sets, slowing decision-making and operations.
+
+    //     Teams struggled to quickly find accurate information across numerous, complex document sets (including SOPs, internal wikis, catalogs) slowing decision-making and daily operations.
+    //<br><br>Employees needed a more intuitive and reliable way to access company knowledge. This tool empowers them to query internal documents naturally, with responses citing official sources to ensure accuracy and compliance.
+    //<br><br>For example, queries about operations processes are backed with references from SOP documents. 
+
+    // Built an LLM-powered chatbot using LangChain and OpenAI to enable natural language queries over SOPs, catalogs, and internal documentation. Indexed thousands of records, deployed on Google Cloud Platform (GCP), and integrated with a Python + SQL backend for scalable data retrieval.
+gpt: {
   title: 'LOreal GPT - LLM Chatbot for Internal Use',
   description: `
     <img src="images/gpt.png" alt="Chatbot Screenshot" style="max-width: 95%; border-radius: 17px; height: auto; margin-bottom: 16px;">
+                        
     <br> <b>Problem: </b>
     <br> 
-    <ul><li> Teams struggle to quickly find accurate information across numerous, complex documents sets, slowing decision-making and operations.</li></ul>
+    <ul><li> 
+    Teams struggle to find information across numerous & complex documents, slowing decision-making and operations.
+    <br><br> This tool enables natural language queries, providing answers with cited internal sources to ensure accuracy and compliance - for example, referencing SOPs for operations queries.
+
+    </li></ul>
     
     <b>Approach: </b> <br>
-    <ul><li>Built an LLM-powered chatbot using LangChain and OpenAI to enable natural language queries over SOPs, catalogs, and internal documentation. Indexed thousands of records, deployed on Google Cloud Platform (GCP), and integrated with a Python + SQL backend for scalable data retrieval.</li></ul>
+    <ul><li>
+       Built an internal LLM-powered chatbot to enable natural language queries across internal documents. Leveraging retrieval-augmented generation (RAG) with both Gemini Pro 2.5 (over 1 million tokens) and GPT-4.1, I designed and implemented LangChain pipelines to seamlessly integrate both models and dynamically route queries based on context and complexity.
+    <br><br> I utilised Python and Google Cloud Storage to process and index documents to enable efficient retrieval and scalable LLM query serving. The solution was then deployed via LangServe on Cloud Run, providing secure access for internal teams. 
+
+    </li></ul>
+
 
     <b>Result: </b> <br>
-    <ul><li>Enabled scalable self-service, time savings, and reduced knowledge gaps. Tool received high utilisation with 100+ monthly active users</li></ul>
-
+    <ul><li>Enabled scalable self-service, time savings, and reduced knowledge gaps. Tool received high utilisation with 100+ monthly active users with consistent positive feedback </li></ul>
+  
     <b>What I Learnt: </b> <br>
     <ul><li> 
         I'm grateful for the opportunity to gain practical experience in LLM integration, scalable cloud deployment, and cross-functional collaboration.
-        Hearing from users that the tool is helpful in their day-to-day makes it very meaningful for me as well.  </li></ul>`,
+        Hearing from users that the tool is helpful in their day-to-day makes it very meaningful for me as well.  </li></ul>
+    
+        <img src="images/gpt_info3.png" alt="Chatbot Screenshot" style="max-width: 95%; border-radius: 17px; height: auto; margin-bottom: 16px;">
+        `,
 
-        tools: '<b><i>Tools Used: LangChain, OpenAI, Python, SQL, GCP</b></i>'
+        tools: '<b><i>Tools Used: LangChain, Python, GCP, OpenAI, Gemini, Cloud Run</b></i>'
+
+        
     },   
 
 forecasting: {
@@ -459,7 +482,7 @@ forecasting: {
     <b>Result: </b>
     <br>
 
-    <ul><li>Improved forecast accuracy by 14%, driving $1.1M in annual cost savings through optimized production and inventory planning. Recognized with L’Oréal’s Global Tech Blazer Award for innovation and impact.</li></ul>
+    <ul><li>Improved forecast accuracy by 14%, driving $1.5M in annual cost savings through optimized production and inventory planning. Recognized with L’Oréal’s Global Tech Blazer Award for innovation and impact.</li></ul>
     <b>What I Learnt: </b>
     <br>
 
