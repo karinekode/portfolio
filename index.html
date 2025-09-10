@@ -240,7 +240,7 @@
                             LLM-powered chatbot enabled L'Oreal teams to query documents (incl. catalogs, SOPs) 
                              via natural language. Enabled scalable self-service, time savings, and reduced knowledge gaps.
             
-                            <br> <br> Achieved high utilisation with 100+ monthly active users 
+                            <!-- <br> <br> Achieved high utilisation with 100+ monthly active users  -->
 
                             <div class="tech-icons"> <i> Built using: &nbsp;
                             <span title="LangChain"><i class="fa fa-cogs" aria-hidden="true"></i> LangChain</span>
@@ -419,28 +419,38 @@
 
     // Built an LLM-powered chatbot using LangChain and OpenAI to enable natural language queries over SOPs, catalogs, and internal documentation. Indexed thousands of records, deployed on Google Cloud Platform (GCP), and integrated with a Python + SQL backend for scalable data retrieval.
 gpt: {
-  title: 'LOreal GPT - LLM Chatbot for Internal Use',
+  title: 'LLM Chatbot for Internal Use',
   description: `
     <img src="images/gpt.png" alt="Chatbot Screenshot" style="max-width: 95%; border-radius: 17px; height: auto; margin-bottom: 16px;">
                         
     <br> <b>Problem: </b>
     <br> 
     <ul><li> 
-    Teams struggle to find information across numerous & complex documents, slowing decision-making and operations.
-    <br><br> This tool enables natural language queries, providing answers with cited internal sources to ensure accuracy and compliance - for example, referencing SOPs for operations queries.
+    Teams struggle to find information across numerous & complex documents, slowing decision-making and processes 
+    <br><br> 
 
     </li></ul>
     
     <b>Approach: </b> <br>
     <ul><li>
-       Built an internal LLM-powered chatbot to enable natural language queries across internal documents. Leveraging retrieval-augmented generation (RAG) with both Gemini Pro 2.5 (over 1 million tokens) and GPT-4.1, I designed and implemented LangChain pipelines to seamlessly integrate both models and dynamically route queries based on context and complexity.
-    <br><br> I utilised Python and Google Cloud Storage to process and index documents to enable efficient retrieval and scalable LLM query serving. The solution was then deployed via LangServe on Cloud Run, providing secure access for internal teams. 
+       Developed an internal LLM-powered chatbot to enable natural language queries, providing answers with cited internal sources. For example, KPI explanations & calculations. 
+       
+       Leveraged retrieval-augmented generation (RAG) with both Gemini Pro 2.5 (over 1 million tokens) and GPT-4.1, 
+       
+    My team designed and implemented LangChain pipelines to integrate 2 models - Gemini Pro 2.5 (over 1 million tokens) and GPT-4.1. 
+    Queries are dynamically routed based on question length, context and complexity.
+
+    <br><br> We utilised Python and Google Cloud Storage to process and index documents. This enabled efficient retrieval and scalable LLM query serving. The solution was then deployed via LangServe on Cloud Run, providing secure access for internal teams. 
 
     </li></ul>
 
 
     <b>Result: </b> <br>
-    <ul><li>Enabled scalable self-service, time savings, and reduced knowledge gaps. Tool received high utilisation with 100+ monthly active users with consistent positive feedback </li></ul>
+    <ul><li>Enabled scalable self-service, time savings, and reduced knowledge gaps. 
+        
+        // Tool received high utilisation with 100+ monthly active users with consistent positive feedback 
+        
+        </li></ul>
   
     <b>What I Learnt: </b> <br>
     <ul><li> 
@@ -456,7 +466,7 @@ gpt: {
     },   
 
 forecast: {
-    title: 'Unecorn - AI/ML Demand Forecasting Platform',
+    title: 'ML Demand Forecasting Platform',
     description: `
     <img src="images/image006.png" style="max-width: 95%; border-radius: 17px; height: auto; margin-bottom: 16px;">
     <img src="images/image007.png" style="max-width: 95%; border-radius: 17px; height: auto; margin-bottom: 16px;">
