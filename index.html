@@ -419,10 +419,14 @@
 
     // Built an LLM-powered chatbot using LangChain and OpenAI to enable natural language queries over SOPs, catalogs, and internal documentation. Indexed thousands of records, deployed on Google Cloud Platform (GCP), and integrated with a Python + SQL backend for scalable data retrieval
         // Tool received high utilisation with 100+ monthly active users with consistent positive feedback.
+
+        // <img src="images/gpt.png" alt="Chatbot Screenshot" style="max-width: 95%; border-radius: 17px; height: auto; margin-bottom: 16px;">
 gpt: {
   title: 'LLM Chatbot for Internal Use',
   description: `
-    <img src="images/gpt.png" alt="Chatbot Screenshot" style="max-width: 95%; border-radius: 17px; height: auto; margin-bottom: 16px;">
+
+
+            <img src="images/gpt_info3.png" alt="Chatbot Screenshot" style="max-width: 95%; border-radius: 17px; height: auto; margin-bottom: 16px;">
                         
     <br> <b>Problem: </b>
     <br> 
@@ -440,7 +444,8 @@ gpt: {
     My team utilised LangChain pipelines to integrate 2 models - Gemini Pro 2.5 (over 1 million tokens) and GPT-4.1. 
     Queries are dynamically routed based on question length, context and complexity.
 
-    <br><br> With Python and Google Cloud Storage to process and index documents, we enabled efficient retrieval and scalable LLM query serving. The solution was then deployed via LangServe on Cloud Run, providing secure access for internal teams. 
+    <br><br> With Python and Google Cloud Storage to process and index documents, we enabled efficient retrieval and scalable LLM query serving. 
+    The solution was then deployed via LangServe on Cloud Run, providing secure access for users. 
 
     </li></ul>
 
@@ -453,10 +458,13 @@ gpt: {
   
     <b>What I Learnt: </b> <br>
     <ul><li> 
-        I'm grateful for the opportunity to gain practical experience in LLM integration, scalable cloud deployment, and cross-functional collaboration.
-        Hearing from users that the tool is helpful in their day-to-day makes it very meaningful for me as well.  </li></ul>
+        Tackling challenges like optimizing latency, managing API costs, and ensuring reliability pushed me to experiment with caching strategies, tune model parameters, and design robust, scalable solutions. 
+        <br><br>
+        Hearing feedback that the tool makes users' work easier motivates me to continue building more impactful solutions.
+        
+        </li></ul>
     
-        <img src="images/gpt_info3.png" alt="Chatbot Screenshot" style="max-width: 95%; border-radius: 17px; height: auto; margin-bottom: 16px;">
+
         `,
 
         tools: '<b><i>Tools Used: LangChain, Python, GCP, OpenAI, Gemini, Cloud Run</b></i>'
@@ -464,10 +472,11 @@ gpt: {
         
     },   
 
+    //     <img src="images/image006.png" style="max-width: 95%; border-radius: 17px; height: auto; margin-bottom: 16px;">
 forecast: {
     title: 'ML Demand Forecasting Platform',
     description: `
-    <img src="images/image006.png" style="max-width: 95%; border-radius: 17px; height: auto; margin-bottom: 16px;">
+
     <img src="images/image007.png" style="max-width: 95%; border-radius: 17px; height: auto; margin-bottom: 16px;">
     <br> <b>Problem: </b> <br> <ul><li>
         Production planning relied on manual forecasting (excel spreadsheet), resulting in time-consuming processes, excess inventory, and missed sales opportunities 
