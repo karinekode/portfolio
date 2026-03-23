@@ -249,11 +249,11 @@ Always learning, always building. Let's connect:
                             <!-- <br> <br> Achieved high utilisation with 100+ monthly active users  -->
 
                             <div class="tech-icons"> <i> Built using: &nbsp;
-                            <span title="LangChain"><i class="fa fa-cogs" aria-hidden="true"></i> LangChain</span>
-                            <span title="Python"><i class="fab fa-python" aria-hidden="true"></i> Python</span>
-                            <span title="OpenAI"><i class="fa fa-code" aria-hidden="true"></i> OpenAI</span>
-                            <span title="Gemini"><i class="fa fa-code" aria-hidden="true"></i> Gemini</span>
-                             <span title="GCP"><i class="fa fa-cloud" aria-hidden="true"></i> GCP</span> </i>
+                            <span title="Bigquery"><i class="fa fa-cogs" aria-hidden="true"></i> Bigquery</span>
+                            <span title="LangChain"><i class="fab fa-python" aria-hidden="true"></i> LangChain</span>
+                            <span title="FastAPI"><i class="fa fa-code" aria-hidden="true"></i>FastAPI</span>
+                            <span title="GPT & Gemini"><i class="fa fa-code" aria-hidden="true"></i> GPT & Gemini</span>
+                             <span title="Cloudrun"><i class="fa fa-cloud" aria-hidden="true"></i> Cloudrun</span> </i>
            
                             </div>
                             
@@ -444,14 +444,16 @@ gpt: {
     
     <b>Approach: </b> <br>
     <ul><li>
-       Developed an internal LLM-powered chatbot to enable natural language queries, providing answers with cited internal sources. For example, KPI explanations & calculations. 
+       Developed LLM chatbot to enable conversational-style queries, providing users with knowledge from cited internal sources. For example, links to relevant internal tools and details of standard operational processes 
        <br><br>
-       
-    My team utilised LangChain pipelines to integrate 2 models - Gemini Pro 2.5 (over 1 million tokens) and GPT-4.1. 
-    Queries are dynamically routed based on question length, context and complexity.
+  
 
-    <br><br> With Python and Google Cloud Storage to process and index documents, we enabled efficient retrieval and scalable LLM query serving. 
-    The solution was then deployed via LangServe on Cloud Run, providing secure access for users. 
+Managed the full lifecycle, including data ingestion and processing in BigQuery, followed by embedding generation and vector storage.
+
+  <br><br>
+  Built a FastAPI backend deployed on Cloud Run, with LangChain embedded in the app layer to route queries dynamically across GPT-4.1 and Gemini based on complexity, latency, and context length.
+  <br><br>
+  The system retrieves semantically relevant context from a vector database to generate grounded responses.
 
     </li></ul>
 
@@ -473,7 +475,7 @@ gpt: {
 
         `,
 
-        tools: '<b><i>Tools Used: LangChain, Python, GCP, OpenAI, Gemini, Cloud Run</b></i>'
+        tools: '<b><i>Tools Used: LangChain, Bigquery, FastAPI, Docker, CloudRun, GPT & Gemini</b></i>'
 
         
     },   
